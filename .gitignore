@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Production build output
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local development files
+.DS_Store
+Thumbs.db
+*.local
+
+# Editor and IDE files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing and coverage
+coverage/
+.nyc_output/
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# TypeScript build files
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
